@@ -1,0 +1,43 @@
+/* miniprogram/pages/login/login.wxss */
+.login_username{
+  height: 1.7em;
+  display: flex;
+  margin-top: 1em;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.username_value{
+  height: 1.7em;
+  position: relative;
+  background-color: #FFFFFF;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+.pwd_value{
+  height: 1.7em;
+  position: relative;
+  background-color: #FFFFFF;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  align-content: center;
+  background-color: rgb(209, 201, 201);
+  text-align: center;
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}

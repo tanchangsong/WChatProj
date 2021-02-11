@@ -1,0 +1,16 @@
+<!--miniprogram/pages/login/login.wxml-->
+<view>
+  <view class="login_username">
+    <text>用户名：</text>
+    <input bindinput="usernameInput" type="number" class="username_value" maxlength="11" ></input>
+  </view>
+   <view class="login_username">
+    <text>密码：</text>
+    <input bindinput="passwordInput" password="true"  class="pwd_value" ></input>
+  </view>
+
+  <view class="button-sp-area">
+    <button  type="primary" plain="true" bindtap="onGetUserInfo">登录</button>
+  </view>
+  
+</view>
